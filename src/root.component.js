@@ -1,10 +1,7 @@
-export default function Root(
-  props
-) {
+export default function Root(props) {
   return (
     <section>
-      {props.name} is mounted!{' '}
-      By {props.myProp}
+      {props.name} is mounted! By {props.myProp}
     </section>
   );
 }
